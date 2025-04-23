@@ -1,0 +1,45 @@
+.userManagementBackgroundImage-container {
+    background-image: url('../../public/images/usermanagement.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+.dataTables_wrapper .dataTables_scrollHead thead {
+    background-color: #87CEEB !important; 
+    color: white !important;
+}
+
+
+.dataTable tbody tr {
+    background-color: #E0F7FA !important; 
+}
+
+
+.dataTable tbody tr:nth-child(even) {
+    background-color: #B2EBF2 !important; 
+}
+
+
+.dataTable tbody tr:hover {
+    background-color: #00A4CC !important; 
+    color: white !important;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background: #87CEEB !important; 
+    color: white !important;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #0097A7 !important; 
+}
+

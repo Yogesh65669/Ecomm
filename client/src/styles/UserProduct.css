@@ -1,0 +1,9 @@
+.userProduct-container {
+    background-image: url('../../public/images/productuser.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
