@@ -6,7 +6,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import '../../styles/Summary.css';
 
-const stripePromise = loadStripe('pk_test_51QAPYuA9rIfqkqdh1WKQN5UkcXpNhsVCS4ENOEBJryS2PWLvHqerWeh8i0J41lMUgBHQHUcPbb8nCAmhX6H39Asl0076nhWLfZ');
+const stripePromise = loadStripe('your key');
 
 function SummaryComponent() {
     const [selectedProducts, setSelectedProducts] = useState([]);
