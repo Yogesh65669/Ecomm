@@ -20,7 +20,7 @@ app.post('/makeCall', async (req, res) => {
     try {
         const call = await client.calls.create({
             twiml: '<Response><Say>Hello from your Node application!</Say></Response>', // कॉल के दौरान बोला जाने वाला टेक्स्ट
-            to: '+918219065669', // कॉल करने वाला नंबर
+            to: '+your phone number', // कॉल करने वाला नंबर
             from: '+15017122661', // Twilio नंबर
         });
 
@@ -35,7 +35,7 @@ async function makeCall(phone, textToSpeak) {
     try {
         const call = await client.calls.create({
             twiml: `<Response><Say>${textToSpeak}</Say></Response>`, 
-            to: '+918219065669',
+            to: '+your phone number',
             from: '+15017122661', 
         });
 
